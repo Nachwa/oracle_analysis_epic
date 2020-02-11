@@ -203,7 +203,7 @@ if __name__ == '__main__':
         #  'tcn_6.1'  : ([train_db.max_sequence_of_frames, n_verbs], 'simple_tcn_3', 'objects_score_per_frame_with_time_noreshape', 10e-4),#33.12
         #  'rnn_6.2'  : ([train_db.max_sequence_of_frames*(n_nouns+4), n_verbs, 3], 'simple_rnn_2', 'objects_score_per_frame_with_time', 10e-4), #33.88
     #______________________
-        #EXP7: Objects per frame and time and object scoring with state
+        #EXP7: Objects per frame and time with state
         # 'rnn_7.1'  : ([train_db.max_sequence_of_frames*(n_nouns+4), n_verbs], 'simple_rnn_2', 'objects_state_per_frame_with_time', 10e-4), #54.35 , v6=56.56
         # 'lstm_7.2'  : ([train_db.max_sequence_of_frames*(n_nouns+4), n_verbs, 1, 128, False], 'simple_lstm_2', 'objects_state_per_frame_with_time', 10e-4), #56.37
         # 'bilstm_7.2'  : ([train_db.max_sequence_of_frames*(n_nouns+4), n_verbs, 1, 128, True], 'simple_lstm_2', 'objects_state_per_frame_with_time', 10e-4), #57.38
